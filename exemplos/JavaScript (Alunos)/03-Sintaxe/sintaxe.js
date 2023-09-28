@@ -1,10 +1,10 @@
 // Comentário de 1 linha
-/*Bloco de comentário (Shift + ALT + a) */
+/* Bloco de comentário (Shift + ALT + a) */
 
-// alert("Olá, mundo!");
+// alert("Aprendendo JS no SESI!!");
 
 console.log("Olá, mundo!"); // Exibido no: Inspecionar -> Console
-// document.write("Olá, mundo!");
+document.write("Olá, mundo!");
 
 /* Variáveis
 Palavras-chave: var, let e const
@@ -23,9 +23,9 @@ document.write('<h2 style="color: blue;">Recuperando valores e concatenação</h
 // console.log(nome); 
 
 
-// 1ª Digitação (Aqui)
-
-
+document.write("<strong> Meu nome é : </strong> "  +nome+"<br>");
+document.write("<strong> O ano atual é : </strong> "  +ano+"<br>");
+document.write("<strong> O meu curso é : </strong> "  +curso+"<br>");
 
 document.write("__________________________________________________________________<br>");
 
@@ -37,6 +37,7 @@ document.write("________________________________________________________________
 document.write('<h2 style="color: blue;">String literal/ Template String (Usando a crase)</h2><br>');
 
 // 2ª Digitação (Aqui)
+document.write(`Eu sou o: <strong>${nome}</strong> e em:  <strong>${ano}</strong> estou estudando o curso <strong>${curso}</strong><br>`)
 
 
 document.write("__________________________________________________________________<br>");
@@ -63,4 +64,4 @@ let quantidade = 3;
 let total = preco * quantidade;
 
 
-// 3ª Digitação (Aqui)
+document.write(`Temos atualmente no estoque o produto: <strong>${produto}</strong>, custando <strong>${preco}</strong> por unidade. <br> Vejo que precisa de <strong>${quantidade}</strong> unidades, então o valor total ficará: <strong>${total}</strong> reais.`);
